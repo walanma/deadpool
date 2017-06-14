@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Deadpool</title>
-    <meta name="author" content="Alan Ma">
+    <meta name="Deadpool" content="Dead Stock">
     <meta content="Dead Stock" />
 
     <!-- Bootstrap core CSS -->
@@ -23,7 +23,7 @@
   <body>
     <div class="container-fluid">
 
-      <h2>Deadpool</h2>
+      <h2><img src="images/Deadpool.png"/></h2>
 
 
       <p>Here's a table of dead stock from pharmacies in New Zealand.</p>
@@ -35,7 +35,7 @@
     <footer class='footer'>
       <div class='container-fluid'>
         <hr />
-        <p class='pull-right'>Database by Alan Ma</a></p>
+        <p class='pull-right'>&copy; Deadpool Database 2017</a></p>
       </div>
     </footer>
 
@@ -63,7 +63,8 @@
         element: 'table-container',
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false},
+        datatables_options: {"paging": true},
+        datatables_options: {"lengthMenu": [ [30, 60, 100, -1], [30, 60, 100, "All"] ]},
         custom_formatting: [[4, format_link]]
       });
     </script>
