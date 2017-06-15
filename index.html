@@ -28,7 +28,7 @@
 
       <p>Here's a table of dead stock from pharmacies in New Zealand.</p>
 
-      <div id='table-container'></div>
+      <div id='table-container' class='hover'></div>
 
     </div><!-- /.container -->
 
@@ -65,7 +65,8 @@
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": true},
         datatables_options: {"lengthMenu": [ [30, 60, 100, -1], [30, 60, 100, "All"] ]},
-        custom_formatting: [[0, format_link]]
+        custom_formatting: [[0, format_link]],
+        display: {hover}
       });
     </script>
   </body>
