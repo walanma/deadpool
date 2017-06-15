@@ -53,7 +53,7 @@
     <script type="text/javascript">
       function format_link(link){
         if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+          return "<a href='https://www.google.co.nz/search?q=" + link + "' target='_blank'>" + link + "</a>";
         else
           return "";
       }
@@ -65,7 +65,7 @@
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": true},
         datatables_options: {"lengthMenu": [ [30, 60, 100, -1], [30, 60, 100, "All"] ]},
-        custom_formatting: [[4, format_link]]
+        custom_formatting: [[0, format_link]]
       });
     </script>
   </body>
