@@ -61,10 +61,9 @@
       CsvToHtmlTable.init({
         csv_path: 'data/DeadStockData.csv',
         element: 'table-container',
-        allow_download: false,
+        allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-		datatables_options: {"order": [[ 8, "desc" ]]},
-        datatables_options: {"paging": false},
+        datatables_options: {"paging": true, "order": [[ 8, "desc" ]]},
         custom_formatting: [[0, format_link]]
       });
     </script>
