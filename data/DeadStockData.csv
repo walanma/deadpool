@@ -1,12 +1,12 @@
 Store Name,Brand,Generic Name,Strength,Pack Size,Pharmacode,W/S Price,SOH,SOH Value,last sale
 Unichem St. Lukes,FOLINIC ACID,Calcium folinate,15mg,10,701300,114.69,4.0,458.76,14/11/2016
-Life St. Lukes,STRATTERA,Atomoxetine, 25mg,28,2181584,117.73,1.57,185.0,12/12/2015
 Life St. Lukes,EMEND TRI PACK,Aprepitant,,3,2244098,110.0,1.0,110.0,04/11/2016
 Unichem St. Lukes,ASAMAX,Mesalazine,500mg EC,100,2288443,54.45,2.0,108.9,17/12/2014
 Unichem St. Lukes,SABRIL,Vigabatrin,500mg,120,2144697,157.48,0.6,94.49,20/05/2016
 Unichem St. Lukes,SABRIL,Vigabatrin,500mg,100,2144697,143.16,0.6,85.9,20/05/2016
 Unichem St. Lukes,SABRIL,Vigabatrin,500mg,100,2144697,131.23,0.6,78.74,20/05/2016
 Unichem St. Lukes,PEXSIG,Perhexiline maleate,100mg,100,352713,69.19,0.98,67.81,14/02/2016
+Life St. Lukes,STRATTERA,Atomoxetine, 25mg,28,2181584,117.73,0.57,67.27,12/12/2015
 Life St. Lukes,SUSTAGEN HF,Special Food,Choc,900,789763,16.39,4.0,65.56,13/11/2015
 Unichem St. Lukes,DAPSONE,Dapsone,100mg,100,712914,121.0,0.52,62.92,25/11/2016
 Life St. Lukes,DIPROSONE,Betamethasone diprop,0.05%,50,210870,9.87,6.0,59.22,08/11/2016
@@ -20,6 +20,7 @@ Life St. Lukes,EPILIM,Sodium valproate,100mg,100,539724,15.02,2.4,36.05,15/11/20
 Unichem St. Lukes,ERA,Erythromycin stearate,500mg,100,205311,49.04,0.68,33.35,06/10/2016
 Life St. Lukes,coloXYL,Docusate Sodium, 50mg,500,252832,23.37,1.4,32.72,04/12/2016
 Unichem St. Lukes,lamiCTAL,lamOTRIGINE, 25mg Disp,56,417866,31.99,1.0,31.99,12/09/2015
+Life St. Lukes,FLAGYL-S,Metronidazole,200mg/5ml,100,729426,27.5,1.14,31.35,19/12/2016
 Unichem St. Lukes,FORTISIP,Special Food,Chocolate,200,2220830,1.23,24.0,29.52,25/09/2016
 Unichem St. Lukes,CREON 10000,Pancreatic enzyme,150mg,100,954322,38.42,0.7,26.89,14/11/2016
 Life St. Lukes,DYNACIRC SRO,Isradipine,5mg,30,757861,8.64,3.0,25.92,18/06/2016
@@ -27,8 +28,8 @@ Life St. Lukes,coUMADIN,Warfarin sodium,1mg,50,796824,3.81,6.5,24.77,20/08/2016
 Unichem St. Lukes,VESICARE,Solifenacin succinate,10mg,30,2208393,41.25,0.6,24.75,10/10/2016
 Unichem St. Lukes,RIFADIN,Rifampicin,300mg,100,251194,127.87,0.18,23.02,03/09/2016
 Unichem St. Lukes,FORTISIP,Special Food,Vanilla,200,2220822,1.23,18.0,22.14,13/05/2016
-Unichem St. Lukes,OXIS,Eformoterol fumarate,  6mcg/dose,60,493740,18.59,1.0,18.59,30/04/2016
 Life St. Lukes,OXIS,Eformoterol fumarate,  6mcg/dose,60,493740,18.59,1.0,18.59,17/09/2016
+Unichem St. Lukes,OXIS,Eformoterol fumarate,  6mcg/dose,60,493740,18.59,1.0,18.59,30/04/2016
 Unichem St. Lukes,MADOPAR,Levodopa+benserazide, 62.5,100,201413,8.8,2.1,18.48,23/01/2016
 Unichem St. Lukes,FLUANXOL,Flupenthixol decanoate, 40mg/2ml  2ml,5,437301,22.99,0.8,18.39,01/10/2016
 Life St. Lukes,LEVLEN ED,Levonorgestrel+ethinyloest.,,112,439118,13.86,1.0,13.86,02/12/2016
