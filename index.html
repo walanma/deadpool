@@ -22,7 +22,6 @@
 
   <body>
     <div class="container-fluid">
-
       <h2><img src="images/Deadpool.png"/></h2>
 
 
@@ -58,14 +57,31 @@
           return "";
       }
 
+      jQuery.fn.dataTableExt.oSort["duration-desc"] = function (x, y) {
+        console.log('desc')
+      };
+
+      jQuery.fn.dataTableExt.oSort["duration-asc"] = function (x, y) {
+          console.log('asc')
+      };
+
       CsvToHtmlTable.init({
         csv_path: 'data/DeadStockData.csv',
         element: 'table-container',
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": true, "order": [[ 8, "desc" ]]},
+        datatables_options: {
+          paging: true,
+          lengthMenu: [
+            [25, 50, 100, -1],
+            [25, 50, 100, 'All']
+          ],
+          order: [ [ 8, 'desc' ] ],
+        },
         custom_formatting: [[0, format_link]]
       });
+
+      $('table').first().addClass('table table-striped table-hover')
     </script>
   </body>
 </html>
