@@ -1,0 +1,1 @@
+curl --data-binary @deadpool/data/DeadStockData.csv -H "Content-Type: text/plain" https://us-central1-deadpool-da37a.cloudfunctions.net/api/stock & pause
