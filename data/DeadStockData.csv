@@ -1,190 +1,65 @@
-Store Name,Brand,Generic Name,Strength,Pack Size,Pharmacode,W/S Price,SOH,SOH Value,Last Used
-Life Dunedin,SEREtide,Fluticasone+salmeterol, 50/25,120,2120194,37.11,3.0,111.33,12/12/2016
-Life Dunedin,ARAVA,Leflunomide, 20mg,30,369470,83.6,1.0,83.6,18/02/2016
-Life Dunedin,NEORAL,Ciclosporin,100mg,50,455598,195.59,0.4,78.24,13/08/2016
-Life Dunedin,ASACOL,Mesalazine,500mg,20,462543,25.08,3.0,75.24,7/12/2016
-Life Dunedin,DIAZEPAM DBL,Diazepam,5mg/ml 2ml,50,399019,91.52,0.8,73.22,3/11/2016
-Life Dunedin,KLIOGEST,Estradiol+norethisterone,2mg+1mg,28,780227,19.91,3.0,59.73,24/07/2016
-Life Dunedin,TRENTAL,Pentoxifylline,400mg,50,2111977,46.49,1.2,55.79,2/08/2016
-Life Dunedin,APO-NICOTINIC ACID,Nicotinic acid, 50mg,500,304247,18.34,3.04,55.75,29/10/2016
-Life Dunedin,SPIRIVA,Tiotropium,18mcg caps,30,2115468,55.41,1.0,55.41,9/09/2016
-Life Dunedin,DULCOLAX,bisaCODYl,10mg,200,270385,81.4,0.67,54.27,26/11/2015
-Life Dunedin,DAIVONEX,calciPOTRIol,50mcg/g,100,249076,49.5,1.0,49.5,19/12/2015
-Life Dunedin,VERPAMIL,Verapamil HCL,240mg SR,100,380075,74.28,0.64,47.54,28/10/2016
-Life Dunedin,HUMALOG MIX 50,Insulin lispro+neutr protamn l,100iu/ml 3ml,5,2235854,46.93,1.0,46.93,12/02/2016
-Life Dunedin,APO-OXYBUTYNIN,Oxybutynin HCl,5mg/5ml,473,340413,66.44,0.63,42.14,14/11/2016
-Life Dunedin,SEREtide,Fluticasone+salmeterol,100/50,60,2120216,37.11,1.0,37.11,5/11/2016
-Life Dunedin,PROCTOSEDYL,Hydrocortisone+cinchocaine,,12,208396,10.89,3.0,32.67,25/09/2016
-Life Dunedin,AZopt,Brinzolamide,1%,5,2117061,10.75,3.0,32.25,6/10/2016
-Life Dunedin,STRATTERA,Atomoxetine, 10mg,28,2181568,117.73,0.25,29.43,2/06/2016
-Life Dunedin,SITERONE,Cyproterone acetate, 50mg,50,2220482,20.68,1.4,28.95,28/02/2015
-Life Dunedin,ACI-JEL,Acetic acid+boric acid,,100,536962,26.4,1.0,26.4,9/10/2016
-Life Dunedin,ISOPTO CARPINE,Pilocarpine HCL,4%,15,252549,8.79,3.0,26.37,17/12/2016
-Life Dunedin,NOZINAN,Levomepromazine,25mg/ml,10,549142,52.68,0.5,26.34,8/01/2016
-Life Dunedin,PROTAPHANE HM,Insulin isophane,100iu/ml 3ml,5,797162,32.85,0.8,26.28,4/11/2016
-Life Dunedin,PROTAPHANE,Insulin isophane,100iu/ml 3ml,5,797162,32.85,0.8,26.28,4/11/2016
-Life Dunedin,DESMOPRESSIN PH&T,Desmopressin,10mcg/dose,6,2198231,25.24,1.0,25.24,25/06/2016
-Life Dunedin,ANTABUSE,Disulfiram,200mg,100,524492,48.73,0.51,24.85,5/09/2016
-Life Dunedin,SERENACE,Haloperidol,5mg/ml,10,254258,23.71,1.0,23.71,20/01/2016
-Life Dunedin,GAVISCON,Sod alg+Mag alg,Infant,30,494275,5.84,4.0,23.36,9/07/2016
-Life Dunedin,LAMOTRIGINE ARROW   5,lamOTRIGINE,  5mg,56,2245523,16.5,1.36,22.39,14/10/2016
-Life Dunedin,PROVERA,Medroxyprogesterone,100mg,100,261149,111.1,0.2,22.22,1/07/2015
-Life Dunedin,dilaNTIN,Phenytoin sod., 30mg,200,258571,24.2,0.9,21.78,2/09/2015
-Life Dunedin,MORPHINE SULPHATE,Morphine sulfate,10mg/ml 1ml,50,395013,52.25,0.4,20.9,20/01/2016
-Life Dunedin,PROBENECID AFT,Probenecid,500mg,100,2012499,60.5,0.32,19.36,6/02/2016
-Life Dunedin,VERPAMIL,Verapamil HCL,240mg SR,250,380075,27.5,0.64,17.6,28/10/2016
-Life Dunedin,OPTIUM FREESTYLE KETONE,Blood Ketone,Blood B- Ketone,10,2230984,17.05,1.0,17.05,19/12/2016
-Life Dunedin,coUMADIN,Warfarin sodium,5mg,50,796832,6.52,2.5,16.3,30/01/2016
-Life Dunedin,SODIBIC,Sodium Bicarbonate,840mg,100,2085992,9.37,1.65,15.46,2/10/2016
-Life Dunedin,DULCOLAX,bisaCODYl,10mg,50,270385,21.84,0.67,14.56,26/11/2015
-Life Dunedin,ETHINYLOESTRADIOL,Ethinyloestradiol,10mcg PABYRN,100,264318,19.36,0.71,13.75,15/05/2016
-Life Dunedin,APO-NICOTINIC ACID,Nicotinic acid, 50mg,100,304247,4.36,3.04,13.25,29/10/2016
-Life Dunedin,SEROPHENE,clomipHEne citrate,50mg,10,731544,32.82,0.4,13.13,16/12/2016
-Life Dunedin,BD,Needles, 5mm 31G MF,100,433802,12.92,1.0,12.92,1/12/2016
-Life Dunedin,FUCICORT,Betamethasone+fusidic,,15,629839,11.49,1.0,11.49,12/10/2016
-Life Dunedin,DIAZEPAM,Diazepam,10mg/2ml,5,399019,13.02,0.8,10.42,3/11/2016
-Life Dunedin,SODIUM BICARBONATE,Sodium Bicarbonate,BP grade,500,2032880,9.85,0.97,9.55,2/12/2016
-Life Dunedin,NAPHCON FORTE,Naphazoline HCL,0.10%,15,211265,4.57,2.0,9.14,8/12/2016
-Life Dunedin,APO-DICLO,Diclofenac sodium, 25mg EC,100,793116,2.86,2.9,8.29,6/08/2016
-Life Dunedin,VISTIL FORTE,Polyvinyl alcohol,3%,15,2179911,4.05,2.0,8.1,8/12/2016
-Life Dunedin,ERA,Erythromycin stearate,250mg,100,205273,24.52,0.3,7.36,1/04/2016
-Life Dunedin,PEXSIG,Perhexiline maleate,100mg,100,352713,69.19,0.1,6.92,14/07/2016
-Life Dunedin,FERRUM H,Iron polymaltose,100mg/2ml,5,209082,16.74,0.4,6.7,30/06/2016
-Life Dunedin,coUMADIN,Warfarin sodium,1mg,50,796824,3.81,1.5,5.71,10/01/2016
-Life Dunedin,VERPAMIL,Verapamil HCL,240mg SR,60,380075,7.79,0.64,4.99,28/10/2016
-Life Dunedin,PRED MILD,Prednisolone acetate,0.12%,5,260541,4.95,1.0,4.95,25/04/2016
-Life Dunedin,DIPROSONE OV,Betamethasone diprop,0.05%,30,2062844,4.76,1.0,4.76,23/09/2015
-Life Dunedin,CILICAINE VK 250,Phenoxymethylpenicillin,250mg,50,2048841,3.17,1.4,4.44,21/06/2016
-Life Dunedin,MORPHINE SULF DBL,Morphine sulfate,10mg/ml 1ml,5,395013,10.0,0.4,4.0,20/01/2016
-Life Dunedin,toFRANIL,imipRAMIne HCL,25mg,50,2015250,9.68,0.4,3.87,16/12/2015
-Life Dunedin,BURINEX,BUMETANide,1mg,100,210323,18.0,0.2,3.6,22/10/2016
-Life Dunedin,M-ESLON,Morphine sulfate, 30mg SR,10,2106485,2.75,1.3,3.58,5/11/2015
-Life Dunedin,HYPNOVEL,MidAZOLAM,7.5mg,100,609765,44.16,0.08,3.53,7/05/2016
-Life Dunedin,RUBIFEN,MethylPHENIDATE HCL, 5mg,30,2227371,3.52,1.0,3.52,8/12/2016
-Life Dunedin,A-SCABIES,Permethrin,5%,30,2332027,3.51,1.0,3.51,4/11/2016
-Life Dunedin,APO-DICLO,Diclofenac sodium, 25mg EC,30,793116,1.16,2.9,3.36,6/08/2016
-Life Dunedin,CILICAINE VK 250,Phenoxymethylpenicillin,250mg,25,2048841,2.22,1.4,3.11,21/06/2016
-Life Dunedin,FLUOX,FLUOXetine HCl,20mg,84,2353121,2.97,0.88,2.62,15/10/2016
-Life Dunedin,NITRADOS,Nitrazepam,5mg,100,269689,5.74,0.44,2.53,22/04/2015
-Life Dunedin,DULCOLAX,bisaCODYl,10mg,6,270385,3.3,0.67,2.2,26/11/2015
-Life Dunedin,PENICILLIN V,Phenoxymethylpenicillin,125mg/5ml,100,2029219,1.63,1.0,1.63,23/07/2016
-Life Dunedin,WATER FOR INJ.,Water,10ml,50,2208326,12.37,0.1,1.24,2/04/2016
-Life Dunedin,KEMADRIN,proCYCLIDine HCL,5mg,100,264962,8.14,0.1,0.81,7/05/2015
-Unichem St. Lukes,FOLINIC ACID,Calcium folinate,15mg,10,701300,114.69,4.0,458.76,14/11/2016
-Life St. Lukes,PACIFEN,Baclofen,10mg,50,403903,51.33,3.12,160.15,23/12/2016
-Life St. Lukes,EMEND TRI PACK,Aprepitant,,3,2244098,110.0,1.0,110.0,04/11/2016
-Unichem St. Lukes,ASAMAX,Mesalazine,500mg EC,100,2288443,54.45,2.0,108.9,17/12/2014
-Unichem St. Lukes,SABRIL,Vigabatrin,500mg,120,2144697,157.48,0.6,94.49,20/05/2016
-Unichem St. Lukes,SABRIL,Vigabatrin,500mg,100,2144697,143.16,0.6,85.9,20/05/2016
-Unichem St. Lukes,SABRIL,Vigabatrin,500mg,100,2144697,131.23,0.6,78.74,20/05/2016
-Unichem St. Lukes,PEXSIG,Perhexiline maleate,100mg,100,352713,69.19,0.98,67.81,14/02/2016
-Life St. Lukes,SUSTAGEN HF,Special Food,Choc,900,789763,16.39,4.0,65.56,13/11/2015
-Unichem St. Lukes,DAPSONE,Dapsone,100mg,100,712914,121.0,0.52,62.92,25/11/2016
-Unichem St. Lukes,toPAMAX,Topiramate, 25mg,60,470988,28.64,2.0,57.28,08/12/2016
-Life St. Lukes,BEZALIP,Bezafibrate,200mg,100,474223,28.55,2.0,57.1,15/07/2016
-Life St. Lukes,ADRENALINE DB,Adrenaline HCL,1:1000 1ml,50,603341,54.45,1.0,54.45,20/11/2016
-Unichem St. Lukes,ANTEN,DOXepin HCL,25mg,500,348554,23.04,2.2,50.69,23/12/2016
-Unichem St. Lukes,SYMBICORT,Budesonide+eformoterol,400/12,60,2228009,48.49,1.0,48.49,23/11/2016
-Life St. Lukes,EMLA,Lidocaine+prilocaine,5%5x5g+dressngs,5,657697,49.5,0.8,39.6,26/11/2016
-Life St. Lukes,ESTROFEM,Estradiol,1mg,28,258601,12.21,3.0,36.63,31/10/2016
-Life St. Lukes,EPILIM,Sodium valproate,100mg,100,539724,15.02,2.4,36.05,15/11/2016
-Unichem St. Lukes,ERA,Erythromycin stearate,500mg,100,205311,49.04,0.68,33.35,06/10/2016
-Life St. Lukes,coloXYL,Docusate Sodium, 50mg,500,252832,23.37,1.4,32.72,04/12/2016
-Unichem St. Lukes,lamiCTAL,lamOTRIGINE, 25mg Disp,56,417866,31.99,1.0,31.99,12/09/2015
-Life St. Lukes,FLAGYL-S,Metronidazole,200mg/5ml,100,729426,27.5,1.14,31.35,19/12/2016
-Unichem St. Lukes,FORTISIP,Special Food,Chocolate,200,2220830,1.23,24.0,29.52,25/09/2016
-Unichem St. Lukes,CREON 10000,Pancreatic enzyme,150mg,100,954322,38.42,0.7,26.89,14/11/2016
-Life St. Lukes,DYNACIRC SRO,Isradipine,5mg,30,757861,8.64,3.0,25.92,18/06/2016
-Life St. Lukes,coUMADIN,Warfarin sodium,1mg,50,796824,3.81,6.5,24.77,20/08/2016
-Unichem St. Lukes,VESICARE,Solifenacin succinate,10mg,30,2208393,41.25,0.6,24.75,10/10/2016
-Unichem St. Lukes,RIFADIN,Rifampicin,300mg,100,251194,127.87,0.18,23.02,03/09/2016
-Unichem St. Lukes,FORTISIP,Special Food,Vanilla,200,2220822,1.23,18.0,22.14,13/05/2016
-Unichem St. Lukes,OXIS,Eformoterol fumarate,  6mcg/dose,60,493740,18.59,1.0,18.59,30/04/2016
-Life St. Lukes,OXIS,Eformoterol fumarate,  6mcg/dose,60,493740,18.59,1.0,18.59,17/09/2016
-Unichem St. Lukes,MADOPAR,Levodopa+benserazide, 62.5,100,201413,8.8,2.1,18.48,23/01/2016
-Unichem St. Lukes,FLUANXOL,Flupenthixol decanoate, 40mg/2ml  2ml,5,437301,22.99,0.8,18.39,01/10/2016
-Unichem St. Lukes,ANTEN,DOXepin HCL,25mg,100,348554,7.55,2.2,16.61,23/12/2016
-Life St. Lukes,ARIMIDEX,Anastrozole,1mg,28,2119498,246.4,0.07,16.43,21/12/2016
-Life St. Lukes,LEVLEN ED,Levonorgestrel+ethinyloest.,,112,439118,13.86,1.0,13.86,02/12/2016
-Life St. Lukes,PACIFEN,Baclofen,10mg,100,403903,4.23,3.12,13.2,23/12/2016
-Unichem St. Lukes,NUELIN,Theophylline,250mg SR,100,255149,23.67,0.55,13.02,13/10/2016
-Unichem St. Lukes,APO-CLOMIPRAMINE,clomipRAMIne HCL,25mg,100,2289830,9.55,1.36,12.99,02/12/2016
-Life St. Lukes,BD SYRINGE,Insulin syringe,1mlUFII31Gx8mm,100,2224224,14.3,0.9,12.87,25/07/2015
-Life St. Lukes,DILZEM,Diltiazem HCL, 30mg,100,668974,5.06,2.21,11.18,18/09/2016
-Unichem St. Lukes,ETHINYLOESTRADIOL,Ethinyloestradiol,10mcg PABYRN,100,264318,19.36,0.57,11.04,23/11/2015
-Unichem St. Lukes,CALCITRIOL AFT,calciTRIol,0.25mcg,100,2091038,10.94,1.0,10.94,28/09/2016
-Unichem St. Lukes,APO-NADOLOL,Nadolol,40mg,100,787493,17.65,0.61,10.77,21/12/2016
-Unichem St. Lukes,KEMADRIN,proCYCLIDine HCL,5mg,100,264962,8.14,1.3,10.58,05/11/2016
-Life St. Lukes,MEDROL,MethylPREDNISOLONE,100mg,20,681776,198.0,0.05,9.9,26/07/2015
-Life St. Lukes,busPIRONE,busPIRONE,10mg,100,2095505,16.46,0.6,9.88,06/03/2016
-Unichem St. Lukes,SOFRAMYCIN,Framycetin sulfate,0.50%,8,254894,9.51,1.0,9.51,05/02/2016
-Unichem St. Lukes,DAPSONE,Dapsone,100mg,28,712914,16.99,0.52,8.83,25/11/2016
-Life St. Lukes,QUESTRAN LITE,Colestyramine resin anhydrous,4g,50,776262,57.95,0.14,8.11,02/06/2016
-Life St. Lukes,DONEPEZIL REX,Donepezil HCl,10mg,90,2349140,11.56,0.67,7.71,14/08/2015
-Unichem St. Lukes,HIRUDOID,Heparinoid,0.3%,14,272353,7.61,1.0,7.61,30/08/2016
-Life St. Lukes,SYRUP,Sucrose,BP 66.7% PF,2000,2140381,23.93,0.31,7.35,03/10/2016
-Life St. Lukes,LEVLEN ED,Levonorgestrel+ethinylest.,,84,439118,7.31,1.0,7.31,02/12/2016
-Unichem St. Lukes,OVESTIN,Oestriol,2mg,30,767476,7.7,0.9,6.93,08/12/2016
-Life St. Lukes,OX PAM,Oxazepam,15mg,100,256285,9.38,0.71,6.66,23/12/2016
-Life St. Lukes,DILZEM,Diltiazem HCL, 60mg,100,523836,9.35,0.7,6.54,14/10/2016
-Life St. Lukes,ISOPTIN,Verapamil HCL, 40mg,100,253499,7.71,0.8,6.17,09/05/2016
-Unichem St. Lukes,HYDROCORTISONE,Hydrocortisone,20mg,100,205648,22.35,0.26,5.81,20/07/2016
-Life St. Lukes,ADRENALINE,Adrenaline HCL,1:1000 1ml,5,603341,5.78,1.0,5.78,20/11/2016
-Unichem St. Lukes,NITRADOS,Nitrazepam,5mg,100,269689,5.74,1.0,5.74,06/11/2016
-Unichem St. Lukes,UREX,Furosemide,500mg Forte,50,2343444,27.5,0.2,5.5,31/10/2016
-Life St. Lukes,PETHIDINE,Pethidine HCL, 50mg,10,259942,4.91,1.0,4.91,07/03/2016
-Unichem St. Lukes,NILSTAT,Nystatin,Vag.,75,254908,4.89,1.0,4.89,22/10/2016
-Unichem St. Lukes,CHLORHEXIDINE HEALTHE,Chlorhexidine gluconate,1% with 70% Eth,500,2318679,4.72,1.0,4.72,02/06/2016
-Unichem St. Lukes,MICREME,Miconazole nitrate,2%,40,697648,4.34,1.0,4.34,19/11/2016
-Unichem St. Lukes,GLYCEROL HEALTHE,Glycerol,BP,2000,2341018,19.72,0.2,3.94,24/01/2016
-Life St. Lukes,Q 300,quINine sulphate,300mg,500,393118,68.1,0.06,3.81,23/11/2016
-Unichem St. Lukes,VOLTAREN,Diclofenac sodium, 50mg,10,747742,4.64,0.8,3.71,14/10/2016
-Life St. Lukes,coloXYL,Docusate Sodium, 50mg,100,252832,2.54,1.4,3.56,04/12/2016
-Unichem St. Lukes,APO-NADOLOL,Nadolol,40mg,30,787493,5.49,0.61,3.35,21/12/2016
-Life St. Lukes,DILZEM,Diltiazem HCL, 30mg,30,668974,1.48,2.21,3.27,18/09/2016
-Life St. Lukes,DILZEM,Diltiazem HCL, 60mg,30,523836,2.8,0.7,1.96,14/10/2016
-Life St. Lukes,BD SYRINGE,Insulin syringe,1mlUFII31Gx8mm,10,2224224,2.18,0.9,1.96,25/07/2015
-Life St. Lukes,ARIMIDEX,Anastrozole,1mg,30,2119498,29.2,0.07,1.95,21/12/2016
-Life St. Lukes,coUMADIN,Warfarin sodium,5mg,50,796832,6.52,0.2,1.3,20/08/2016
-Unichem St. Lukes,LOPRESOR,MetoPROLOL tartrate, 50mg,100,680915,17.6,0.07,1.23,12/07/2016
-Unichem St. Lukes,GOLD KNIGHT,Condoms,53mm Choc,144,2287757,14.7,0.08,1.22,22/04/2015
-Life St. Lukes,METHATABS,MethADONe HCL,5mg,10,765503,2.03,0.5,1.01,02/07/2016
-Life St. Lukes,MADOPAR,Levodopa+benserazide, 62.5,100,201413,8.8,0.1,0.88,01/01/2016
-Life St. Lukes,ETIDRONATE ARROW,Etidronate disodium,200mg,100,2341999,14.85,0.04,0.59,30/11/2016
-Life St. Lukes,Q 300,quINine sulphate,300mg,100,393118,7.33,0.06,0.41,23/11/2016
-Unichem St. Lukes,GOLD KNIGHT,Condoms,Choc,12,2287757,1.22,0.08,0.1,22/04/2015
-Unichem New Lynn,CONDYLINE,Podophyllotoxin,,3,701610,36.96,3.0,110.88,09/12/2016
-Unichem New Lynn,PENMIX 50,Insulin isophane+neut.,50/50 3ml,5,785768,46.93,1.4,65.7,11/05/2016
-Unichem New Lynn,GUTRON,MidODRINE HCL,2.5mg,100,242993,58.3,1.01,58.88,10/12/2016
-Unichem New Lynn,APIDRA SOLOSTAR,Insulin glulisine,100iu/ml 3ml,5,2316870,50.68,0.8,40.54,24/12/2016
-Unichem New Lynn,MICROLUT,Levonorgestrel,30mcg,84,719803,18.15,2.0,36.3,25/11/2016
-Unichem New Lynn,PULMICORT,BUDESONide,400mcg,200,674281,35.2,1.0,35.2,25/06/2016
-Unichem New Lynn,oxyCONTIN,Oxycodone HCl, 5mg CR,20,2194767,8.26,4.0,33.04,23/11/2016
-Unichem New Lynn,SOFRAMYCIN,Framycetin sulfate,0.50%,8,254894,9.51,3.0,28.53,22/10/2016
-Unichem New Lynn,ACTRAPID,Insulin neutral,100iu/ml 3ml,5,797138,46.94,0.6,28.16,23/01/2016
-Unichem New Lynn,ACTRAPID HM,Insulin neutral,100iu/ml 3ml,5,797138,44.7,0.6,26.82,23/01/2016
-Unichem New Lynn,NAPROSYN,Naproxen,1000mg SR,90,767336,23.1,1.11,25.67,14/11/2016
-Unichem New Lynn,APO-NADOLOL,Nadolol,40mg,100,787493,17.65,1.2,21.18,03/12/2016
-Unichem New Lynn,CALCITRIOL AFT,calciTRIol,0.5mcg,100,2091011,20.23,0.9,18.21,20/12/2016
-Unichem New Lynn,FLORINEF,Fludrocortisone acetate,0.1mg,100,204951,15.75,1.0,15.75,19/08/2015
-Unichem New Lynn,VERPAMIL,Verapamil HCL,120mg SR,250,2095467,16.72,0.92,15.32,16/10/2016
-Unichem New Lynn,ANTABUSE,Disulfiram,200mg,100,524492,48.73,0.31,15.11,18/03/2016
-Unichem New Lynn,M-ESLON,Morphine sulfate, 60mg SR,10,2106493,5.94,2.4,14.26,28/09/2016
-Unichem New Lynn,RISPERDAL,RISPERIDone,0.5mg Quicklet,28,2177560,23.56,0.54,12.62,11/12/2016
-Unichem New Lynn,ONE ALPHA,Alfacalcidol,0.25mcg,100,203084,28.95,0.4,11.58,16/10/2016
-Unichem New Lynn,OX PAM,Oxazepam,15mg,100,256285,9.38,1.17,10.97,07/09/2016
-Unichem New Lynn,LITHICARB FC,Lithium carbonate,400mg,100,656453,14.11,0.77,10.86,04/08/2016
-Unichem New Lynn,ETIDRONATE ARROW,Etidronate disodium,200mg,100,2341999,14.85,0.72,10.69,21/12/2016
-Unichem New Lynn,DIPROSONE,Betamethasone diprop,0.05%,50,210897,9.87,1.0,9.87,09/09/2016
-Unichem New Lynn,TRENTAL,Pentoxifylline,400mg,50,2111977,46.49,0.2,9.3,21/12/2016
-Unichem New Lynn,MICREME,Miconazole nitrate,2%,40,697648,4.34,2.0,8.68,01/09/2016
-Unichem New Lynn,VISTIL FORTE,Polyvinyl alcohol,3%,15,2179911,4.05,2.0,8.1,14/01/2016
-Unichem New Lynn,OX PAM,Oxazepam,10mg,100,256250,6.79,1.02,6.93,30/09/2016
-Unichem New Lynn,APO-NADOLOL,Nadolol,40mg,30,787493,5.49,1.2,6.59,03/12/2016
-Unichem New Lynn,METHATABS,MethADONe HCL,5mg,10,765503,2.03,3.0,6.09,18/09/2016
-Unichem New Lynn,NITRADOS,Nitrazepam,5mg,100,269689,5.74,0.94,5.4,12/11/2016
-Unichem New Lynn,PRED MILD,Prednisolone acetate,0.12%,5,260541,4.95,1.0,4.95,21/05/2015
-Unichem New Lynn,CHLORHEXIDINE HEALTHE,Chlorhexidine gluconate,1% with 70% Eth,500,2318679,4.72,1.0,4.72,30/07/2016
-Unichem New Lynn,DIPROSONE,Betamethasone diprop,0.05%,15,210897,3.26,1.0,3.26,09/09/2016
-Unichem New Lynn,KEMADRIN,proCYCLIDine HCL,5mg,100,264962,8.14,0.2,1.63,25/05/2016
-Unichem New Lynn,RUBIFEN,MethylPHENIDATE HCL, 5mg,30,2227371,3.52,0.03,0.12,04/07/2016
+22 Jun 2017 8:09am    Page 1,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+Life Pharmacy St Lukes,,,,,
+,,,,,
+Stock take and valuation report (excluding GST),,,,,
+Listing: 0-Z; Stock Point: LIFE-DISP; Stocked; Not used in last 180 days; Hospital meds: Include;,,,,,
+Total Value: $1618.75,,,,,
+PCode, Product,Pack,Stock,Price,Value
+2222116,ADEFIN XL 60mg LA Tablets,30,3P,6.33,18.99
+603341,ADRENALINE 1:1000 1ml Amps,5,1P,5.78,5.78
+2511835,APO ONDANSETRON 8mg Tablet,50,5P,5.25,26.25
+2352494,APO-AMILORIDE 5mg Tablets,100,66,16.5,10.89
+2511843,APO-LEFLUNOMIDE 10mg Tablets,30,5P,3.19,15.95
+304247,APO-NICOTINIC ACID 50mg Tablets,100,1P,4.36,4.36
+2437155,APO-PERINDOPRIL 4mg Tablets,30,3P,5.28,15.84
+2443074,APO-ROPINIROLE 0.25mg Tablets,100,180,3.06,5.51
+2519666,APO-SUMATRIPTAN 100mg Tablets,102,1P,50.85,50.85
+2119498,ARIMIDEX 1mg Tablets,30,2,29.2,1.95
+2224224,BD SYRINGE 1mlUFII31Gx8mm Needles,100,90,14.3,12.87
+788244,BD SYRINGE 1mlUF29gx12.7mm Needles,100,1P,14.3,14.3
+474223,BEZALIP 200mg Tablets,90,2P,9.96,19.92
+2095505,BUSPIRONE 10mg Tablets,100,60,16.46,9.88
+2521164,CELECOXIB 100mg Capsules,60,2P,3.99,7.98
+2097117,CIALIS 10mg Tablets,4,5,77.96,97.45
+252832,COLOXYL 50mg Tablets,100,140,2.54,3.56
+796832,COUMADIN 5mg Tablets,50,10,6.52,1.3
+796824,COUMADIN 1mg Tablets,50,325,3.81,24.76
+776246,DIANE-35 ED  Tablets,84,1P,25.39,25.39
+523836,DILZEM 60mg Tablets,100,70,9.35,6.54
+668974,DILZEM 30mg Tablets,100,221,5.06,11.18
+2349140,DONEPEZIL REX 10mg Tablets,90,60,11.56,7.71
+757861,DYNACIRC SRO 5mg Capsules,30,3P,8.64,25.92
+2490080,E-CHAMBER LA GRANDE 510ml Device,1,1P,5.63,5.63
+2244098,EMEND TRI PACK  Capsules,3,1P,110,110
+657697,EMLA 5%5x5g+dressngs Cream,5,4,49.5,39.6
+539724,EPILIM 100mg Tablets,100,240,15.02,36.05
+258601,ESTROFEM 1mg Tablets,28,3P,12.21,36.63
+2341999,ETIDRONATE ARROW 200mg Tablets,100,4,14.85,0.59
+729426,FLAGYL-S 200mg/5ml Susp.,100,114,27.5,31.35
+2482738,GACET 250mg Supp.,10,1P,4.17,4.17
+403385,GLYCOPREP 6% W/W Powder,200,1P,16.07,16.07
+2373289,HEALTHE DIMETHICONE 10% Pump Cream,500,1P,5.39,5.39
+393592,HYBLOC 200mg Tablets,100,30,32.71,9.81
+2436116,HYDRALAZINE 25mg Tablets,56,2P,41.85,83.7
+202126,IMURAN 50mg Tablets,100,6P,11.64,69.84
+253499,ISOPTIN 40mg Tablets,100,80,7.71,6.17
+2278294,JANUVIA 50mg Tablets,28,9,74.19,23.85
+439118,LEVLEN ED  Tablets,84,1P,7.31,7.31
+201413,MADOPAR 62.5 Capsules,100,10,8.8,0.88
+2385538,MALARONE Junior Tablets,12,2,27.6,4.6
+681776,MEDROL 100mg Tablets,20,1,198,9.9
+765503,METHATABS 5mg Tablets,10,5,2.03,1.02
+2263068,MIDAZOLAM 15mg/3ml  3ml Amps,5,1,13.09,2.62
+2383942,MORPHINE LA ARROW 30mg LA bpk. Tablets,10,4P,3.13,12.52
+2376458,MYLOC 190mg CR Tablets,30,3P,4.23,12.69
+2384167,NOVATRETIN 10mg Capsules,60,2,19.65,0.65
+256285,OX PAM 15mg Tablets,100,71,9.38,6.66
+493740,OXIS 6mcg/dose Turbuhaler,60,1P,18.59,18.59
+403903,PACIFEN 10mg Tablets,100,312,4.23,13.2
+259942,PETHIDINE 50mg Tablets,10,1P,4.91,4.91
+439886,PHENOBARBITONE 30mg Tablets,500,525,34.1,35.8
+393118,Q 300 300mg Tablets,500,28,68.1,3.81
+776262,QUESTRAN LITE 4g Sachets,50,7,57.95,8.11
+2311186,RAZENE 10mg OTC Tablets,90,1P,22.56,22.56
+22 Jun 2017 8:09am    Page 2,,,,,
+2463121,REUTENOX 20mg Tablets,20,3,2.41,0.36
