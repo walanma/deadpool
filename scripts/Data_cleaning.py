@@ -11,9 +11,8 @@ import pandas as pd
 import numpy as np
 path =r'C:\Github\dp\internal\deadpooldata'
 allFiles = glob.glob(path + "/*.csv")
-frame = pd.DataFrame()
+initial_frame = pd.DataFrame()
 list_ = []
-#Cleaning data
 for file_ in allFiles:
     
     #grabbing pharmacy name from csv data -- usually first value line 2
@@ -27,7 +26,7 @@ for file_ in allFiles:
                 pharmacy_name = v
             
                 print(pharmacy_name)
-    
+#Cleaning data from here    
     df = pd.read_csv(file_, \
                      skiprows=9, \
                      names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value'],\
@@ -44,12 +43,19 @@ for file_ in allFiles:
     df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value']]
 #dropping unneeded rows from multiple pages
     df2 = df[pd.notnull(df['SOH'])]
-    df3 = df2[df.Product != ' Product']
+    df3 = df2[df2.Product != ' Product']   
+    list_.append(df3)
+initial_frame = pd.concat(list_)
+initial_frame.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
+
+#Exclude CDs
+cd = [2294524, 2452715, 2383926, 2194767, 2452715]
+combined_df = pd.read_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv')
+no_df = combined_df[~combined_df['Pharmacode'].isin(cd)]
 #default sort
-    df4 = df3.sort_values('SOH Value', ascending=False)
-    list_.append(df4)
-frame = pd.concat(list_)
-frame.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
+sorted_df = no_df.sort_values('SOH Value', ascending=False)
+sorted_df.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
+
 
 #getting number of unique pharmacies
 unique_pharmacies = frame['Store Name'].nunique()
