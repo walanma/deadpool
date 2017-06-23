@@ -1,6 +1,6 @@
 git clone https://github.com/watermelonma/deadpooldata
-python C:\Github\dp\Internal\MergeCSVPanda.py
 python C:\Github\dp\Internal\Data_cleaning.py
+python C:\Github\dp\Internal\MergeCSVPanda.py
 cd C:\Github\dp\Internal\deadpool
 git add .
 git commit -am "Daily merged update"
