@@ -58,10 +58,10 @@ sorted_df.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index 
 
 
 #getting number of unique pharmacies
-unique_pharmacies = frame['Store Name'].nunique()
+unique_pharmacies = sorted_df['Store Name'].nunique()
 #getting Total SOH Value for all pharmacies
 #print(unique_pharmacies)
-Total_SOH_Value = frame['SOH Value'].astype(float)
+Total_SOH_Value = sorted_df['SOH Value'].astype(float)
 TSH = Total_SOH_Value.sum()
 rounded_total = round(TSH,2)
 #print(rounded_total)
