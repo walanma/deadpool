@@ -2,9 +2,9 @@
 """
 Created on Wed Jun 21 20:57:48 2017
 
-@author: water
+@author: Alan Ma
 """
-#grabbing pharmacy name from csv data -- usually first value line 2
+
 import glob
 import csv
 import pandas as pd
@@ -15,6 +15,8 @@ frame = pd.DataFrame()
 list_ = []
 #Cleaning data
 for file_ in allFiles:
+    
+    #grabbing pharmacy name from csv data -- usually first value line 2
     with open(file_) as csvfile:
         readCSV = csv.reader(csvfile)
         value = []
@@ -43,18 +45,20 @@ for file_ in allFiles:
 #dropping unneeded rows from multiple pages
     df2 = df[pd.notnull(df['SOH'])]
     df3 = df2[df.Product != ' Product']
-    list_.append(df3)
+#default sort
+    df4 = df3.sort_values('SOH Value', ascending=False)
+    list_.append(df4)
 frame = pd.concat(list_)
 frame.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
 
 #getting number of unique pharmacies
 unique_pharmacies = frame['Store Name'].nunique()
 #getting Total SOH Value for all pharmacies
-print(unique_pharmacies)
+#print(unique_pharmacies)
 Total_SOH_Value = frame['SOH Value'].astype(float)
 TSH = Total_SOH_Value.sum()
 rounded_total = round(TSH,2)
-print(rounded_total)
+#print(rounded_total)
 #Reading index.html and editing html to replace phrases
 import urllib.request
 page = urllib.request.urlopen("file:///Github/dp/internal/local_index.html")
