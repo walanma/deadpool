@@ -47,11 +47,29 @@ for file_ in allFiles:
     list_.append(df3)
 initial_frame = pd.concat(list_)
 initial_frame.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
-
-#Exclude CDs
-cd = [2294524, 2452715, 2383926, 2194767, 2452715]
+#Exclude CD
+#List of CDs = external .XLSx file
+xls = pd.read_excel('List_of_CDs.xlsx', index_col=0).to_dict()
+CDs = {}
+CDs = xls['Product']
+#cd = {2294524:"CONCERTA 27mg Tablets", 
+#      2452715:"OXYCODONE BNM 20mg CR Tablets" ,
+#      2194767:"OXYCONTIN 5mg CR Tablets",
+#      2179776:"OXYNORM 20mg Capsules",
+#      }
 combined_df = pd.read_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv')
-no_df = combined_df[~combined_df['Pharmacode'].isin(cd)]
+counter = 1
+excluded_list = []
+for a in combined_df['Pharmacode']: 
+    counter += 1
+    for b in CDs:        
+        if a == b:
+            excluded_list.append("Excluded " + CDs[a] + " From " + (combined_df.loc[counter]['Store Name'] + "\n"))
+print(excluded_list)       
+fo = open("C:\Github\dp\internal\deadpool\data\Excluded_CDs.txt", "w+")  
+line = fo.writelines(excluded_list)
+fo.close()
+no_df = combined_df[~combined_df['Pharmacode'].isin(CDs)]
 #default sort
 sorted_df = no_df.sort_values('SOH Value', ascending=False)
 sorted_df.to_csv('C:\Github\dp\internal\deadpool\data\DeadStockData.csv', index = False)
