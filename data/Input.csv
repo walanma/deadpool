@@ -1,7 +1,7 @@
 Store Name,Product,Pharmacode,Pack Size,SOH,W/S Price,SOH Value,Expiry,Comments
-Unichem LynnMall,PURI NETHOL 50mg Tablets,261270,25.0,220,54.35,478.28,,
+Unichem LynnMall,PURI NETHOL 50mg Tablets,261270,25.0,220,54.35,478.28,Mar-18,Test
 Life Pharmacy Takapuna,NEORAL 100mg Capsules,455598,50.0,2P,195.59,391.18,,
-Life Pharmacy St Lukes,VALCYTE 450mg Tablets,2084767,60.0,18,1155.0,346.5,Feb-18,
+Life Pharmacy St Lukes,VALCYTE 450mg Tablets,2084767,60.0,18,1155.0,346.5,Feb-18,Test
 Unichem Greenhithe Pharmacy,ALBEY ALLERGY TRTMNT Bee Venom Set,660817,1.0,1P,335.5,335.5,,
 Life Pharmacy Howick Village,VIRGAN 0.15% Eye gel,2472856,5.0,8P,41.28,330.24,,
 Unichem LynnMall,PENTASA 1g/100ml Enemas,715867,7.0,7P,45.43,318.01,,
@@ -154,7 +154,7 @@ St Lukes Unichem Pharmacy,VESICARE 10mg Tablets,2208393,30.0,18,41.25,24.75,,
 Unichem LynnMall,BETOPTIC 0.5% Eye drops,535982,5.0,3P,8.25,24.75,,
 Unichem Greenhithe Pharmacy,ESTROFEM 1mg Tablets,258601,28.0,2P,12.21,24.42,,
 Life Pharmacy Howick Village,ESTROFEM 1mg Tablets,258601,28.0,2P,12.21,24.42,,
-Life Pharmacy St Lukes,JANUVIA 50mg Tablets,2278294,28.0,9,74.19,23.85,Nov-17,
+Life Pharmacy St Lukes,JANUVIA 50mg Tablets,2278294,28.0,9,74.19,23.85,Nov-17,40% Off
 Life Pharmacy Howick Village,MAGNESIUM CARB. Light BP Powder,2143054,250.0,200,29.57,23.66,,
 Life Pharmacy Howick Village,VEXAZONE 45mg Tablets,2479451,90.0,272,7.81,23.6,,
 Life Pharmacy Howick Village,HABITROL 7mg/24hr Patches,2381389,28.0,2P,11.63,23.26,,
@@ -173,7 +173,7 @@ Life Pharmacy Tauranga,CATAPRES 150mcg Tablets,202274,100.0,58,37.75,21.89,,
 Unichem LynnMall,UTROGESTAN 100mg Capsules,2086905,30.0,36,18.15,21.78,,
 Unichem LynnMall,COUMADIN 5mg Tablets,796832,50.0,167,6.52,21.78,,
 Unichem LynnMall,VOLTAREN 75mg SR Tablets,2140276,100.0,1P,21.64,21.64,,
-Unichem New Lynn Pharmacy,APO-NADOLOL 40mg Tablets,787493,100.0,120,17.65,21.18,1234567.0,
+Unichem New Lynn Pharmacy,APO-NADOLOL 40mg Tablets,787493,100.0,120,17.65,21.18,,
 Unichem LynnMall,GASTRODENOL 120mg Tablets,2501619,50.0,66,15.96,21.07,,
 Life Pharmacy Howick Village,DE WORM 100mg Tablets,2273144,24.0,19,26.61,21.07,,
 Unichem LynnMall,BUSCOPAN 20mg/ml Amps,770833,5.0,2P,10.53,21.06,,
