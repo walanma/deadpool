@@ -29,7 +29,7 @@ for file_ in allFiles:
 #Cleaning data from here    
     df = pd.read_csv(file_, \
                      skiprows=9, \
-                     names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value'],\
+                     names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry','Comments'],\
                 )
 #dropping unneccessary columns
     del df['Locn']
@@ -40,7 +40,7 @@ for file_ in allFiles:
 #inserting a column
     df.insert(0, "Store Name", pharmacy_name)
 #rearrange columns
-    df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value']]
+    df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
 #dropping unneeded rows from multiple pages
     df2 = df[pd.notnull(df['SOH'])]
     df3 = df2[df2.Product != ' Product']   
