@@ -1,0 +1,3 @@
+call gustil_pull.bat
+call gustil_pull.bat
+ren *.* *.csv & pause

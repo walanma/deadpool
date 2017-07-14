@@ -1,0 +1,1 @@
+gsutil -m cp -r gs://deadpool-da37a.appspot.com/stock_upload C:\Github\dp\Internal\firebase
