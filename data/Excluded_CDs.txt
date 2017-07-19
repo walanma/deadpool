@@ -42,6 +42,12 @@ Excluded METHATABS 5mg Tablets From Life Pharmacy Tauranga
 Excluded MORPHINE LA ARROW 100mg LA bpk. Tablets From Life Pharmacy Tauranga
 Excluded OXYCODONE 40mg CR Tablets From Life Pharmacy Tauranga
 Excluded OXYNORM 10mg Capsules From Life Pharmacy Tauranga
+Excluded OXYCODONE BNM 5mg CR Tablets From Matakana Pharmacy
+Excluded OXYCODONE BNM 40mg CR Tablets From Matakana Pharmacy
+Excluded OXYCODONE ORION 10mg/ml Amps From Matakana Pharmacy
+Excluded OXYNORM 20mg Capsules From Matakana Pharmacy
+Excluded PETHIDINE DBL 50mg/ml 1ml Amps From Matakana Pharmacy
+Excluded RUBIFEN 20mg SR Tablets From Matakana Pharmacy
 Excluded FENTANYL 100mcg/2ml 2ml Amps From Unichem Apollo Drive Pharmacy
 Excluded METHATABS 5mg Tablets From Unichem Apollo Drive Pharmacy
 Excluded OXYCODONE ORION 10mg/ml Amps From Unichem Apollo Drive Pharmacy
