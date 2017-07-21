@@ -14,39 +14,102 @@ allFiles = glob.glob(path + "/*.csv")
 initial_frame = pd.DataFrame()
 list_ = []
 for file_ in allFiles:
-    
+#    print(str(file_))
+#    
     #grabbing pharmacy name from csv data -- usually first value line 2
     with open(file_) as csvfile:
         readCSV = csv.reader(csvfile)
         value = []
         for line in readCSV:
-            value.append(line)
+            value.append(line)        
         for v in value[1]:
-            if v != "":
+            if "Pharmacy" in v:
                 pharmacy_name = v
             
-                print(pharmacy_name)
-#Cleaning data from here    
-    df = pd.read_csv(file_, \
+#                print(pharmacy_name)
+            elif "LynnMall" in v:   
+                pharmacy_name = v
+#Cleaning data from here , LOTS FIRST   
+    if "LOTS" in str(file_):
+        lotsdf = pd.read_csv(file_, \
+                     skiprows=1, \
+                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Comments','Pack Size','W/S Price'],\
+                )
+#dropping unneccessary columns
+        del lotsdf['MTS']
+        lotsdf['SOH Value'] = lotsdf['SOH Value'].str.replace('$', '')
+        lotsdf['SOH Value'] = lotsdf['SOH Value'].astype(float)
+#inserting a column
+        lotsname = str(file_)
+#        print(lotsname)
+        filepath = "C:\Github\dp\internal\\"
+        filepath2 = "firebase\stock_upload\\"
+        filepath3 = ".csv"
+        filepath4 = "LOTS"
+        filepath5 = "lots"
+        rname = lotsname.replace(filepath,"")
+        rname2 = rname.replace(filepath2,"")
+        rname3 = rname2.replace(filepath3,"")
+        rname4 = rname3.replace(filepath4,"")
+        rname5 = rname4.replace(filepath5,"")
+        lotsdf.insert(0, "Store Name", str(rname5) + " LOTS")
+##rearrange columns
+        lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+##dropping unneeded rows from multiple pages
+#    df2 = df[pd.notnull(df['SOH'])]
+#    df3 = df2[df2.Product != ' Product']   
+        list_.append(lotsdf)
+    elif "lots" in str(file_):
+        lotsdf = pd.read_csv(file_, \
+                     skiprows=1, \
+                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Comments','Pack Size','W/S Price'],\
+                )
+#dropping unneccessary columns
+        del lotsdf['MTS']
+#inserting a column
+        lotsname = str(file_)
+#        print(lotsname)
+        filepath = "C:\Github\dp\internal\\"
+        filepath2 = "firebase\stock_upload\\"
+        filepath3 = ".csv"
+        filepath4 = "LOTS"
+        filepath5 = "lots"
+        rname = lotsname.replace(filepath,"")
+        rname2 = rname.replace(filepath2,"")
+        rname3 = rname2.replace(filepath3,"")
+        rname4 = rname3.replace(filepath4,"")
+        rname5 = rname4.replace(filepath5,"")
+        lotsdf.insert(0, "Store Name", str(rname5) + " LOTS")
+##rearrange columns
+        lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+##dropping unneeded rows from multiple pages
+#    df2 = df[pd.notnull(df['SOH'])]
+#    df3 = df2[df2.Product != ' Product']   
+        list_.append(lotsdf)
+#Cleaning data, TONIQ SECOND
+    else:
+        #Cleaning data from here    
+        df = pd.read_csv(file_, \
                      skiprows=9, \
                      names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry','Comments'],\
                 )
 #dropping unneccessary columns
-    del df['Locn']
-    del df['Manf']
-    del df['Adj']
-    del df['SO']
+        del df['Locn']
+        del df['Manf']
+        del df['Adj']
+        del df['SO']
 
 #inserting a column
-    df.insert(0, "Store Name", pharmacy_name)
+        df.insert(0, "Store Name", pharmacy_name)
 #rearrange columns
-    df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+        df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
 #dropping unneeded rows from multiple pages
-    df2 = df[pd.notnull(df['SOH'])]
-    df3 = df2[df2.Product != ' Product']   
-    list_.append(df3)
-initial_frame = pd.concat(list_)
+        df2 = df[pd.notnull(df['SOH'])]
+        df3 = df2[df2.Product != ' Product']   
+        list_.append(df3)
+initial_frame = pd.concat(list_)    
 initial_frame.to_csv(r'C:\Github\dp\internal\firebase\stock\DeadStockData.csv', index = False)
+
 
 #Highlighting fridge lines
 xls = pd.read_excel('List_of_fridge_lines.xlsx', index_col=0).to_dict()
@@ -60,7 +123,7 @@ for a in combined_df['Pharmacode']:
     counter += 1
     for b in fridges:        
         if a == b:
-            print("Match found")
+#            print("Match found")
             combined_df.loc[counter, 'Product'] = (combined_df.loc[counter]['Product'] + " [Fridge Line]")
 combined_df.to_csv(r'C:\Github\dp\internal\firebase\stock\DeadStockData.csv', index = False)
 
@@ -82,7 +145,7 @@ for a in combined_df['Pharmacode']:
     for b in CDs:        
         if a == b:
             excluded_list.append("Excluded " + CDs[a] + " From " + (combined_df.loc[counter]['Store Name'] + "\n"))
-print(excluded_list)       
+#print(excluded_list)       
 fo = open(r"C:\Github\dp\internal\firebase\stock\Excluded_CDs.txt", "w+")  
 line = fo.writelines(excluded_list)
 fo.close()
