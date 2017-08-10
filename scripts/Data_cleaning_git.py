@@ -75,6 +75,7 @@ for file_ in allFiles:
         manualdf.insert(0, "Store Name", manname2)
 ##rearrange columns
         manualdf = manualdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
+        print(manualdf)
         list_.append(manualdf)
         
 #-------------------------------------------------------------------------------------------------------------------

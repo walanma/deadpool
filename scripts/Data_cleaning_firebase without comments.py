@@ -38,7 +38,7 @@ for file_ in allFiles:
     if "lots" in str.lower(file_):
         lotsdf = pd.read_csv(file_, \
                      skiprows=1, \
-                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Comments','Pack Size','W/S Price'],\
+                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Pack Size','W/S Price'],\
                 )
 #dropping unneccessary columns
         del lotsdf['MTS']
@@ -58,15 +58,14 @@ for file_ in allFiles:
         rname5 = rname4.replace(filepath5,"")
         lotsdf.insert(0, "Store Name", str(rname5) + " LOTS")
 ##rearrange columns
-        lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
-        print (lotsdf)
+        lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
         list_.append(lotsdf)
 #-------------------------------------------------------------------------------------------------------------------
 #Cleaning data from here , MANUAL SECOND
     if "manual" in str.lower(file_):
         manualdf = pd.read_csv(file_, \
                      skiprows=3, \
-                     names=['Pharmacode', 'Product','Pack Size','SOH','W/S Price','SOH Value','Expiry','Comments'],\
+                     names=['Pharmacode', 'Product','Pack Size','SOH','W/S Price','SOH Value','Expiry'],\
                 )
 #inserting a column
         manfilter = "["
@@ -75,7 +74,7 @@ for file_ in allFiles:
         manname2 = manname.replace(manfilter2,"")
         manualdf.insert(0, "Store Name", manname2)
 ##rearrange columns
-        manualdf = manualdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+        manualdf = manualdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
         list_.append(manualdf)
         
 #-------------------------------------------------------------------------------------------------------------------
@@ -86,7 +85,7 @@ for file_ in allFiles:
         #Cleaning data from here    
         df = pd.read_csv(file_, \
                      skiprows=9, \
-                     names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry','Comments'],\
+                     names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry'],\
                 )
 #dropping unneccessary columns
         del df['Locn']
@@ -97,7 +96,7 @@ for file_ in allFiles:
 #inserting a column
         df.insert(0, "Store Name", pharmacy_name)
 #rearrange columns
-        df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+        df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
 #dropping unneeded rows from multiple pages
         df2 = df[pd.notnull(df['SOH'])]
         df3 = df2[df2.Product != ' Product']   
