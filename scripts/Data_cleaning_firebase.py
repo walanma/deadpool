@@ -15,7 +15,6 @@ initial_frame = pd.DataFrame()
 list_ = []
 for file_ in allFiles:
 #    print(str(file_))
-#    
     #grabbing pharmacy name from csv data -- usually first value line 2
     with open(file_) as csvfile:
         readCSV = csv.reader(csvfile)
@@ -23,86 +22,91 @@ for file_ in allFiles:
         for line in readCSV:
             value.append(line)        
         for v in value[1]:
+            
+#-------------------------------------------------------------------------------------------------------------------
+#GETTING TONIQ NAMES FIRST
+  
             if "Pharmacy" in v:
                 pharmacy_name = v
         
             elif "LynnMall" in v:   
                 pharmacy_name = v
-        print(pharmacy_name)
+#        print(pharmacy_name)
+
+        
+#-------------------------------------------------------------------------------------------------------------------
+#Cleaning data from here , MANUAL FIRST
+
         for u in value[0]:
             if "Pharmacy" in u:
                 manual_pharmacy_name = u
-                print(u)
-#-------------------------------------------------------------------------------------------------------------------                
-#Cleaning data from here , LOTS FIRST  
-    if "lots" in str.lower(file_):
-        lotsdf = pd.read_csv(file_, \
-                     skiprows=1, \
-                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Comments','Pack Size','W/S Price'],\
-                )
-#dropping unneccessary columns
-        del lotsdf['MTS']
-        lotsdf['SOH Value'] = lotsdf['SOH Value'].str.replace('$', '')
-        lotsdf['SOH Value'] = lotsdf['SOH Value'].astype(float)
-#inserting a column
-        lotsname = str(file_)
-        filepath = "C:\Github\dp\internal\\"
-        filepath2 = "firebase\stock_upload\\"
-        filepath3 = ".csv"
-        filepath4 = "LOTS"
-        filepath5 = "lots"
-        rname = lotsname.replace(filepath,"")
-        rname2 = rname.replace(filepath2,"")
-        rname3 = rname2.replace(filepath3,"")
-        rname4 = rname3.replace(filepath4,"")
-        rname5 = rname4.replace(filepath5,"")
-        lotsdf.insert(0, "Store Name", str(rname5) + " LOTS")
-##rearrange columns
-        lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
-        print (lotsdf)
-        list_.append(lotsdf)
-#-------------------------------------------------------------------------------------------------------------------
-#Cleaning data from here , MANUAL SECOND
-    if "manual" in str.lower(file_):
-        manualdf = pd.read_csv(file_, \
+#                print(u)
+                manualdf = pd.read_csv(file_, \
                      skiprows=3, \
-                     names=['Pharmacode', 'Product','Pack Size','SOH','W/S Price','SOH Value','Expiry','Comments'],\
-                )
+                     names=['Pharmacode', 'Product','Pack Size','SOH','W/S Price','SOH Value','Expiry']\
+                           )
 #inserting a column
-        manfilter = "["
-        manfilter2 = "]"
-        manname = manual_pharmacy_name.replace(manfilter,"")
-        manname2 = manname.replace(manfilter2,"")
-        manualdf.insert(0, "Store Name", manname2)
+                manfilter = "["
+                manfilter2 = "]"
+                manname = manual_pharmacy_name.replace(manfilter,"")
+                manname2 = manname.replace(manfilter2,"")
+                manualdf.insert(0, "Store Name", manname2)
 ##rearrange columns
-        manualdf = manualdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
-        list_.append(manualdf)
-        
-#-------------------------------------------------------------------------------------------------------------------
+                manualdf = manualdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
+                list_.append(manualdf)
+                
+ #-------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------                
+#Cleaning data from here , LOTS SECOND 
 
-#-------------------------------------------------------------------------------------------------------------------
-#Cleaning data, TONIQ LAST
-    else:
-        #Cleaning data from here    
-        df = pd.read_csv(file_, \
-                     skiprows=9, \
-                     names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry','Comments'],\
+        for lots in value[0]:
+             if "PLU" in lots:
+                 lotsdf = pd.read_csv(file_, \
+                     skiprows=1, \
+                     names=['Pharmacode', 'Product', 'MTS','SOH','SOH Value','Expiry','Pack Size','W/S Price'],\
                 )
 #dropping unneccessary columns
-        del df['Locn']
-        del df['Manf']
-        del df['Adj']
-        del df['SO']
+                 del lotsdf['MTS']
+                 lotsdf['SOH Value'] = lotsdf['SOH Value'].str.replace('$', '')
+                 lotsdf['SOH Value'] = lotsdf['SOH Value'].astype(float)
+#inserting a column
+                 lotsname = str(file_)
+                 filepath = "C:\Github\dp\internal\\"
+                 filepath2 = "firebase\stock_upload\\"
+                 filepath3 = ".csv"
+                 filepath4 = "LOTS"
+                 filepath5 = "lots"
+                 rname = lotsname.replace(filepath,"")
+                 rname2 = rname.replace(filepath2,"")
+                 rname3 = rname2.replace(filepath3,"")
+                 rname4 = rname3.replace(filepath4,"")
+                 rname5 = rname4.replace(filepath5,"")
+                 lotsdf.insert(0, "Store Name", str(rname5) + " LOTS")
+##rearrange columns
+                 lotsdf = lotsdf[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
+                 list_.append(lotsdf)
+
+#-------------------------------------------------------------------------------------------------------------------
+#CLEANING TONIQ LAST
+
+    df = pd.read_csv(file_, \
+             skiprows=9, \
+             names=['Pharmacode', 'Product', 'Locn','Pack Size','Manf', 'SO', 'SOH', 'Adj','W/S Price', 'SOH Value','Expiry'],\
+                )
+#dropping unneccessary columns
+    del df['Locn']
+    del df['Manf']
+    del df['Adj']
+    del df['SO']
 
 #inserting a column
-        df.insert(0, "Store Name", pharmacy_name)
+    df.insert(0, "Store Name", pharmacy_name)
 #rearrange columns
-        df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry','Comments']]
+    df = df[['Store Name','Product', 'Pharmacode', 'Pack Size', 'SOH', 'W/S Price', 'SOH Value','Expiry']]
 #dropping unneeded rows from multiple pages
-        df2 = df[pd.notnull(df['SOH'])]
-        df3 = df2[df2.Product != ' Product']   
-        list_.append(df3)
-
+    df2 = df[pd.notnull(df['SOH'])]
+    df3 = df2[df2.Product != ' Product']   
+    list_.append(df3)
 #-------------------------------------------------------------------------------------------------------------------
 
 
