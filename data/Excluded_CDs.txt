@@ -88,6 +88,7 @@ Excluded PETHIDINE DBL 100mg/2ml 2ml Amps From Unichem Apollo Drive Pharmacy
 Excluded CODEINE PHOSPHATE 60mg Tablets From Unichem Grand Arcade Pharmacy
 Excluded METHATABS 5mg Tablets From Unichem Grand Arcade Pharmacy
 Excluded OXYCODONE 10mg CR Tablets From Unichem Grand Arcade Pharmacy
+Excluded RITALIN 40mg LA Capsules From Unichem Grand Arcade Pharmacy
 Excluded RUBIFEN 20mg SR Tablets From Unichem Grand Arcade Pharmacy
 Excluded OXYNORM 20mg Capsules From Unichem Greenhithe Pharmacy
 Excluded SUBOXONE 8+2mg Tablets From Unichem Kamo Pharmacy
