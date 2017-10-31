@@ -92,9 +92,8 @@ Excluded OXYCODONE 10mg CR Tablets From Unichem Grand Arcade Pharmacy
 Excluded RITALIN 40mg LA Capsules From Unichem Grand Arcade Pharmacy
 Excluded RUBIFEN 20mg SR Tablets From Unichem Grand Arcade Pharmacy
 Excluded OXYNORM 20mg Capsules From Unichem Greenhithe Pharmacy
-Excluded SUBOXONE 8+2mg Tablets From Unichem Kamo Pharmacy
+Excluded FENTANYL SANDOZ 75mcg Patches From Unichem Kamo Pharmacy
 Excluded M-ESLON 60mg SR Capsules From Unichem Kamo Pharmacy
-Excluded OXYNORM 5mg/5ml Liquid From Unichem Kamo Pharmacy
 Excluded CONCERTA 18mg Tablets From Unichem LynnMall
 Excluded OXYCODONE BNM 20mg CR Tablets From Unichem LynnMall
 Excluded OXYCODONE BNM 40mg CR Tablets From Unichem LynnMall
@@ -117,8 +116,9 @@ Excluded OXYCODONE 40mg CR Tablets From Unichem Waikanae Health Pharmacy
 Excluded OXYCODONE BNM 40mg CR Tablets From Unichem Waikanae Health Pharmacy
 Excluded METHADONE 10mg/ml Vials From Unichem Waiuku Pharmacy
 Excluded M-ESLON 60mg SR Capsules From Unichem Waiuku Pharmacy
+Excluded MORPHINE SULF DBL 10mg/ml 1ml Amps From Unichem Waiuku Pharmacy
+Excluded MORPHINE SULF DBL 5mg/ml Amps From Unichem Waiuku Pharmacy
 Excluded FENTANYL 100mcg/2ml 2ml Amps From Unichem Waiuku Pharmacy
-Excluded DEXAMFETAMINE PSM 5mg Tablets From Unichem Waiuku Pharmacy
 Excluded M-ESLON 100mg SR Capsules From Unichem Waiuku Pharmacy
 Excluded M-ESLON 30mg SR Capsules From Unichem Waiuku Pharmacy
 Excluded FENTANYL 500mcg/10ml 10ml Amps From Unichem Waiuku Pharmacy
@@ -127,6 +127,7 @@ Excluded OXYCONTIN 20mg CR Tablets From Unichem Waiuku Pharmacy
 Excluded FENTANYL SANDOZ 50mcg Patches From Unichem Waiuku Pharmacy
 Excluded OXYCODONE BNM 80mg CR Tablets From Unichem Waiuku Pharmacy
 Excluded BIODONE EXTRA FORTE 10mg/ml Liquid From Unichem Waiuku Pharmacy
+Excluded MORPHINE SULF DBL 30mg/ml 1ml Amps From Unichem Waiuku Pharmacy
 Excluded FENTANYL SANDOZ 25mcg Patches From Unichem Waiuku Pharmacy
 Excluded FENTANYL SANDOZ 12.5mcg Patches From Unichem Waiuku Pharmacy
 Excluded OXYCODONE BNM 20mg CR Tablets From Unichem Waiuku Pharmacy
