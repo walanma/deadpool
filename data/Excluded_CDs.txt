@@ -86,11 +86,10 @@ Excluded METHATABS 5mg Tablets From Unichem Apollo Drive Pharmacy
 Excluded OXYCODONE ORION 10mg/ml Amps From Unichem Apollo Drive Pharmacy
 Excluded OXYNORM 20mg Capsules From Unichem Apollo Drive Pharmacy
 Excluded PETHIDINE DBL 100mg/2ml 2ml Amps From Unichem Apollo Drive Pharmacy
-Excluded CODEINE PHOSPHATE 60mg Tablets From Unichem Grand Arcade Pharmacy
+Excluded FENTANYL SANDOZ 50mcg Patches From Unichem Grand Arcade Pharmacy
 Excluded METHATABS 5mg Tablets From Unichem Grand Arcade Pharmacy
 Excluded OXYCODONE 10mg CR Tablets From Unichem Grand Arcade Pharmacy
 Excluded RITALIN 40mg LA Capsules From Unichem Grand Arcade Pharmacy
-Excluded RUBIFEN 20mg SR Tablets From Unichem Grand Arcade Pharmacy
 Excluded OXYNORM 20mg Capsules From Unichem Greenhithe Pharmacy
 Excluded FENTANYL SANDOZ 75mcg Patches From Unichem Kamo Pharmacy
 Excluded M-ESLON 60mg SR Capsules From Unichem Kamo Pharmacy
@@ -104,6 +103,7 @@ Excluded PETHIDINE 50mg Tablets From Unichem LynnMall
 Excluded RITALIN 20mg LA Capsules From Unichem LynnMall
 Excluded RITALIN 30mg LA Capsules From Unichem LynnMall
 Excluded OXYCODONE 40mg CR Tablets From St Lukes Unichem Pharmacy
+Excluded OXYCODONE BNM 5mg CR Tablets From St Lukes Unichem Pharmacy
 Excluded OXYCODONE ORION 10mg/ml Amps From Putaruru Unichem Pharmacy
 Excluded OXYCODONE BNM 40mg CR Tablets From Unichem Rosedale Pharmacy
 Excluded RUBIFEN 5mg Tablets From Unichem Rosedale Pharmacy
