@@ -1,5 +1,5 @@
-[Insert Pharmacy Name],,,,,,,
-,,,,,,,
-Pharmacode, Product,Pack Size,SOH,Default W/S Price,SOH Value,Expiry,Comments
-1234567,Example 100mg Tablets,30,3P,6.33,18.99,Jun-19,30% off
-7654321,Example 200mg Capsules,100,1P,5.78,5.78,Jan-20,15% off
+[Insert Pharmacy Name],,,,,,
+,,,,,,
+Pharmacode, Product,Pack Size,SOH,Default W/S Price,SOH Value,Expiry
+1234567,Example 100mg Tablets,30,3P,6.33,18.99,Jun-19
+7654321,Example 200mg Capsules,100,1P,5.78,5.78,Jan-20
